@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nofirearrow",
+  "version": "${version}",
+  "name": "No Fire Arrow!",
+  "description": "Keine Feuerpfeile mehr!\n\nBeschreibung:\nMit \"/nfa\" kann man das Rendern von Feuer bei Pfeilen aktivieren/deaktivieren.\nAls Standard ist es deaktiviert.",
+  "authors": ["Myronx"],
+  "contact": {
+    "repo": ""
+  },
+  "license": "MIT",
+  "icon": "assets/nofirearrow/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.myronx.nofirearrow.client.NoFireArrowClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
