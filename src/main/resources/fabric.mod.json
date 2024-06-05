@@ -3,7 +3,7 @@
   "id": "nofirearrow",
   "version": "${version}",
   "name": "No Fire Arrow!",
-  "description": "Keine Feuerpfeile mehr!\n\nBeschreibung:\nMit \"/nfa\" kann man das Rendern von Feuer bei Pfeilen aktivieren/deaktivieren.\nAls Standard ist es deaktiviert.",
+  "description": "Keine Feuerpfeile mehr!\n\nBeschreibung:\nMit \"/nfa nofire\" kann man das Rendern von Feuer bei Pfeilen aktivieren/deaktivieren.\nAls Standard ist es deaktiviert.\nMit \"/nfa render\" kann man das Rendern von Pfeilen ganz deaktivieren.",
   "authors": ["Myronx"],
   "contact": {
     "repo": ""
